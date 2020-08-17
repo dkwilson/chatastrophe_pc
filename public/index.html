@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/app.css">
+    <title>Chatastrophe</title>
+</head>
+<body>
+    <div id="root"></div>
+    
+
+<script src="/secrets.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: windwo.apiKey,
+    authDomain: "d3-demo-78a42.firebaseapp.com",
+    databaseURL: "https://d3-demo-78a42.firebaseio.com",
+    projectId: "d3-demo-78a42",
+    storageBucket: "d3-demo-78a42.appspot.com",
+    messagingSenderId: window.messagingSenderId,
+    appId: "1:42207395707:web:db5812e8723829c0afc7de",
+    measurementId: "G-Y5P8FWB6KZ"
+  };
+  // Initialize Firebase
+  window.firebase = firebase;
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+</script>
+</script>
+</body>
+</html>
